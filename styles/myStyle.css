@@ -1,0 +1,120 @@
+body {
+    font-family: Chiller;
+    font-size: larger;
+    color: white;
+    background-color:black;
+    background-image: url(../images/background.jpg);
+    background-size: contain;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#header {
+    position: fixed;
+    top: 0%;
+    color: red;
+}
+
+#nickDiv {
+    position: fixed;
+    top: 20%;
+    color:red;
+}
+
+a {
+    color: red;
+}
+
+textarea {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    font:chiller;
+}
+#divScoreBoard {
+     position:fixed;
+     top: 32%;
+     float:left;
+     font-size:40px;
+     border:dashed;
+     border-color:ActiveBorder;
+     color:green;
+     padding:2px;
+}
+#txtNick {
+    height: 25px;
+}
+
+button {
+    background-color: white;
+    border-color: yellowgreen;
+    border-radius: 4px;
+    font-family: 'Comic Sans MS';
+}
+
+    button:hover {
+        border-color: red;
+        font-family: Chiller;
+        font-size: 18px;
+    }
+
+#content {
+    position: fixed;
+    top: 45%;
+    height: 25%;
+    width: 25%;
+    border: inset;
+    border-color: burlywood;
+    border-radius: 10px;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+    #content p {
+        color: burlywood;
+        text-align: left;
+        padding: 2px;
+        border-radius: 5px;
+    }
+
+        #content p:hover {
+            border: outset;
+            border-width: 2px;
+            border-color: burlywood;
+        }
+#meaningMaker {
+    position:static;
+    float:right;
+     top: 40%;
+    height: 25%;
+    width: 25%;
+    color:red;
+    font-size:50px;
+    text-align:center;
+    padding:10px;
+}
+#anagramizer {
+    position:static;
+    float:right;
+    top: 40%;
+    height: 25%;
+    width: 45%;
+    color:red;
+    font-size:75px;
+    text-align:center;
+    padding:10px;
+}
+.myMsg {
+font-size:45px;
+}
+#divMessaging {
+    position: fixed;
+    top: 75%;
+}
+
+#footer {
+    position: fixed;
+    top: 90%;
+    left: 45%;
+    align-content: center;
+}
