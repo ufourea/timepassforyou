@@ -1,4 +1,4 @@
 timepassforyou
 ==============
 
-Anagrams game for time pass :D
+Anagrams game
